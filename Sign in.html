@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Sign In</title>
+        <style>
+            div{
+                background-color: rgb(178, 180, 182);
+                margin-top: 2%;
+                margin-bottom: 2%;
+                margin-left: 2%;
+                margin-right: 2%;
+                width: 95%;
+                height: 95%;
+            }
+            form{
+                margin-top: 10%;
+            }
+            h1{
+                font-size: 90px;
+                color: rgb(38, 38, 71);
+            }
+            label{
+                color: rgb(44, 22, 61);
+                font-size: 23px;
+            }
+            input{
+                font-size: 20px;
+                color: rgb(44, 22, 61);
+                width: 300px;
+            }
+            #form_div{
+                background-color: rgb(103, 104, 105);
+                height: 68%;
+                width: 40%;
+            }
+            body{
+                color: rgb(92, 35, 49);
+                font-size: 20px;
+            }
+            .radio{
+                width: 20px;
+            }
+            #submit{
+                height: 40px;
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <center>
+                <h1>Sign In</h1>
+                <div id="form_div">
+                    <form action="C:\Users\varch\OneDrive\Desktop\Daksh\html\projects\fooddelivery.html">
+                        <label>First Name:-</label> <br>
+                        <input name="first name" placeholder="First Name" required><br>
+                        <label>Last Name:-</label> <br>
+                        <input name="last name" placeholder="Last Name" required><br><br>
+                        <label>Gender:-</label><br>
+                        <input type="radio" name="gender" value="male" class="radio" required>Male &nbsp; &nbsp;<br>
+                        <input type="radio" name="gender" value="female" class="radio" required>Female<br><br>
+                        <label>Email:-</label><br>
+                        <input type="email" name="email" placeholder="Email e.g. ABC@Gmail.com" required><br>
+                        <label>Password:-</label><br>
+                        <input type="password" name="password" placeholder="Set a Password(8 characters)" maxlength="8" required><br><br>
+                        <input type="submit" value="Create Account" id="Submit">
+                    </form>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
