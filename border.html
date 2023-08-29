@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>Border</title>
+        <style>
+            div{
+                height: 30%;
+                width: 30%;
+                margin-top: 100px;
+            }
+            p{
+                border-style: solid;
+                border-top-style: dotted;
+                border-left-style: dashed;
+                border-width: 5px;
+                margin:20px;
+                border-top-color: yellow;
+                border-right-color: blue;/*
+                background: linear-gradient(135deg, red,blue,green,yellow,pink);*/
+            }
+            #dot{
+                border-style: dotted;
+            }
+            #dash{
+                border-style: dashed;
+            }
+            #solid{
+                border-style: solid;
+            }
+            #double{
+                border-style: double;
+            }
+            #groove{
+                border-style: groove;
+            }
+            #ridge{
+                border-style: ridge;
+            }
+            #inset{
+                border-style: inset;
+            }
+            #outset{
+                border-style: outset;
+            }
+            #none{
+                border-style: none;
+            }
+            #hidden{
+                border-style: hidden;
+            }
+            #div1{/*
+                border-top-style: dotted;
+                border-right-style: dashed;
+                border-bottom-style: solid;
+                border-left-style: double;
+                border-top-color: blue;
+                border-right-color: green;
+                border-bottom-color: red;
+                border-left-color: peru;
+                border-top-width: 4px;
+                border-right-width: 5px;
+                border-bottom-width: 6px;
+                border-right-width: 7px;
+                margin-left:35%;*/
+                
+            }
+            #div2{
+                border-style: dotted dashed double ridge;
+                border-width: 10px;
+                border-color: red orangered orange yellow;
+                margin-left: 35%;
+            }
+            #div3{
+                border: outset pink 5px;
+                margin-left: 35%;
+            }
+            #div4{
+                border-top: 10px pink ridge;
+                border-right: 10px purple groove;
+                margin-left: 35%;
+            }
+            .h2{
+                border-style: dotted dashed;
+                border-width: 5px 10px;
+                border-color: red orange;
+                height:40%;
+            }
+            .p{
+                border: ridge pink 10px;
+                height:40%;
+            }
+            .h4{
+                border-top: groove 7px green;
+                border-right: ridge 10px lightcoral;
+                border-bottom:outset 13px lime;
+                border-left: inset 16px blue;
+                height:10%;
+            }
+            #div5{
+                border: ridge 5px palevioletred;
+                border-top-right-radius: 200px;
+                border-top-left-radius: 300px;
+                border-bottom-left-radius: 400px;
+                border-bottom-right-radius: 500px;
+                background: linear-gradient(135deg,violet,indigo,blue,green,yellow,orange,red);
+            }
+            #button1{
+                border: orangered 16px outset;
+                border-radius: 50%;
+                background-color: green;
+                color: pink;
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="dot">
+            <p>dotted</p>
+        </div>
+        <div id="dash">
+            <p>dashed</p>
+        </div>
+        <div id="solid">
+            <p>solid</p>
+        </div>
+        <div id="double">
+            <p>double</p>
+        </div>
+        <div id="groove">
+            <p>groove</p>
+        </div>
+        <div id="ridge">
+            <p>ridge</p>
+        </div>
+        <div id="inset">
+            <p>inset</p>
+        </div>
+        <div id="outset">
+            <p>outset</p>
+        </div>
+        <div id="none">
+            <p>none</p>
+        </div>
+        <div id="hidden">
+            <p>hidden</p>
+        </div>
+        <br>
+        <div id="div1"></div>
+        <div id="div2">
+            <h1>div2</h1>
+        </div>
+        <div id="div3">
+            <h1>div3</h1>
+        </div>
+        <div id="div4">
+            <h1>div4</h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <h2 class="h2"></h2>
+            <p class="p"></p>
+            <h4 class="h4"></h4>
+        </div>
+        <div id="div5"></div>
+        <div>
+            <a href=" https://www.google.com">
+               <button id="button1">Button</button>
+            </a>
+        </div>
+    </body>
+</html>
