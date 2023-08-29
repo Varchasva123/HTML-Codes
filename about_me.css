@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient( 135deg, darkred ,red ,orangered ,orange ,yellow);
+    height: 200%;
+}
+#namediv{
+    background: linear-gradient( 135deg, green ,limegreen ,lightgreen);
+    width: 25%;
+    margin-left: 47.5%;
+    padding: 10px 2px;
+    border: solid darkgreen 4px;
+    border-radius: 20px;
+}
+#nameh1{
+    text-align: center;
+    color: rgb(70, 72, 181);
+    font-size: 40px;
+}
+header{
+    background: linear-gradient(purple,pink);
+    padding: 25px 0px;
+    margin: -9px -8px 0px;
+    border: 5px indigo solid;
+    border-top: 6px indigo solid;
+}
+nav{
+    background: linear-gradient(blue,aqua,aquamarine);
+    width: 20%;
+    height: 80%;
+    margin: -12.4% 0px 0px -15px;
+    border: 5px darkblue solid;
+    border-top: indigo 5px solid;
+}
+#navdiv1{
+    margin-top: 59%;
+}
+fieldset{
+    border-width: 8px;
+}
+legend{
+    color: white;
+    font-size: 20px;
+}
+ul{
+    margin-left: -13px;
+    font-size: 25px;
+}
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: orange;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    text-decoration: none;
+}
+a:active{
+    color: purple;
+    text-decoration: none;
+}
+footer{
+    height: 20%;
+    background: linear-gradient(green,lime,lightgreen);
+    border: darkgreen 5px solid;
+    margin: -5px -8px 0px -10px
+}
+#body{
+    border: 10px pink solid;
+    height: 62%;
+    margin-top: -65%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+
+}
